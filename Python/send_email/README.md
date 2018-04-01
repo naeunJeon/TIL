@@ -22,6 +22,7 @@ sendMail('me@gmail.com', 'you@gmail.com', '메일보내기')
 `class smtplib.SMTP_SSL([host[, port[, local_hostname[, keyfile[, certfile[, timeout]]]]]])`
 
 `class smtplib.SMTP([host[, port[, local_hostname[, timeout]]]])`
+
 : SSL 사용여부에 따라 선택하여 사용하면 된다. 로컬 SMTP서버가 없어 gmail을 사용하면 되는데 gmail은 SSL을 필수로 사용한다. SMTP connect()메서드가 실행되며 호출에 실패하면 timeout이 발생한다.
 
 `SMTP.login(user, password)` : 인증이 필요한 STMP 서버에 로그인, 매개변수에는 인증할 사용자메일과, 암호이 들어간다.
