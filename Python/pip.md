@@ -9,19 +9,19 @@ python -m pip install -U pip
 
 ##### installing Packages
 
-* 최신버전 패키지 설치
+최신버전 패키지 설치
 ```bash
 pip install Package
 ```
-* 해당버전 패키지 설치
+해당버전 패키지 설치
 ```bash
 pip install Package==1.0.4
 ```
-* 최소사양 패키지 설치
+최소사양 패키지 설치
 ```bash
 pip install Package>=1.0.4
 ```
-* 파일에 나열되어있는 패키지들 설치
+파일에 나열되어있는 패키지들 설치
 ```bash
 pip install -r requirements.txt requirements.txt
 ```
