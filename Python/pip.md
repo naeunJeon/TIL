@@ -8,7 +8,6 @@
 python -m pip install -U pip
 ```
 
-
 #####installing Packages
 
 * 최신버전 패키지 설치
