@@ -61,4 +61,4 @@ for title in titles:
 **BeautifulSoup**으로 html소스를 python객체로 변환한다.(Python 내장 파서 `html.parser`를 이용했다.)
 ![웹페이지 이미지](./webpage-html.PNG)
 출력하려는 리스트들은 _body > div > div > div > ul > li > a_ 규칙을 가지고있다. 
-마우스 우클릭 **Copy>Copy selector**로 쉽게 가져올 수 있다. `soup.select`를 이용하면 규칙에 일치하는 모든 객체들을 List로 반환해준다.
+마우스 우클릭 **Copy > Copy selector**로 쉽게 가져올 수 있다. `soup.select`를 이용하면 규칙에 일치하는 모든 객체들을 List로 반환해준다.
