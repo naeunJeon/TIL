@@ -28,7 +28,7 @@ sendMail('me@gmail.com', 'you@gmail.com', '메일보내기')
 
 `SMTP.sendmail(from_addr, to_addrs, msg[, mail_options, rcpt_options])` : 메일발송, 매개변수에는 발신주소, 수신주소, 메시지문자열이 들어간다.
 
-`SMTP.quit()` : SMTP 세션을 종료
+`SMTP.quit()` : SMTP 세션 종료
 
 `SMTP.starttls([keyfile[, certfile]])` : SMTP 연결을 TLS (전송 계층 보안) 모드로 전환, 뒤 따르는 모든 SMTP 명령은 암호화된다. 그런 다음 ehlo ()를 다시 호출해야한다.
 
