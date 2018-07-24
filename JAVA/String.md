@@ -3,8 +3,8 @@
 1. 문자열을 만들때 두가지 방법
 - 문자열 리터럴 지정하는 방법
 ```java
-String str1= "test";     //문자열 리터럴 지정
-String str2= "test";     //문자열 리터럴 지정
+String str1= "test"; //문자열 리터럴 지정
+String str2= "test"; //문자열 리터럴 지정
 
 if(str1 == str2){
     System.out.println("str1과 str2은 같음");
@@ -14,8 +14,8 @@ if(str1 == str2){
 ```
 - String클래스의 생성자를 이용하는 방법
 ```java
-String str3= new String("test");     //String클래스의 생성자 이용
-String str4= new String("test");     //String클래스의 생성자 이용
+String str3= new String("test");        //String클래스의 생성자 이용
+String str4= new String("test");        //String클래스의 생성자 이용
 
 if(str3 == str4){
     System.out.println("str3과 str4는 같음");
