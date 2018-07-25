@@ -43,3 +43,16 @@ if(str3.equals(str3)){
 ```java
 String s= "";   //빈 문자열로 초기화
 ```
+
+3. String관련 메소드<br>
+`char charAt(int index)` : 지정한 위치(index)에 있는 문자를 알려줌<br>
+`String concat(String str)` : 문자열(str)을 뒤에 덧붙임<br>
+`boolean contains(CharSequence s)` : 지정된 문자열(s)이 포함되었는지 검사<br>
+`boolean equals(Object obj)` : 매개변수로 받은 문자열(obj)과 String인스턴스의 문자열을 비교하여 같으면 true, 다르면 false를 반환<br>
+`boolean equalsIgnoreCase(String str)` :  문자열과 String인스턴스의 문자열을 대소문자 구분없이 비교<br>
+`int indexOf(String str)` : 주어진 문자열이 존재하는지 확인하여 그 위치(index)를 반환하고 없으면 -1를 반환<br>
+`int length()` : 문자열의 길이를 반환<br>
+`String replace(char oldChar, char newChar)` :  문자열 중의  문자열(oldChar)을 새로운 문자열(newChar)로 바꾼 문자열을 반환<br>
+`String[] split(String regax)` : 문자열을 지정된 구분자(regax)로 나누어 문자열 배열에 담아 반환<br>
+`String substring(int begin, int end) ` : 시작위치(begin)부터 끝위치(end) 범위에 포함된 문자열을 반환(begin<=x<end)<br>
+`String toString()` : String인스턴스에 저장되어 있는 문자열을 반환
