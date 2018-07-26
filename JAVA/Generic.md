@@ -22,7 +22,7 @@ ArrayList<Tv> tvList = new ArrayList<Tv>();
 tvList.add(new Tv());
 tvList.add(new Audio());    //컴파일 에러 발생 !!
 ```
-Java SE 7부터는 인스턴스 생성시 타입을 추정할 수 있는 경우에는 아래와 같이 타입을 생략할 수 있음
+Java SE 7부터는 인스턴스 생성시 타입을 추정할 수 있는 경우에는 아래와 같이 타입을 생략할 수 있다.
 ```java
 ArrayList<Tv> tvList = new ArrayList<>();
 ```
