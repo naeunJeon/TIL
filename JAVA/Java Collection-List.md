@@ -1,7 +1,7 @@
 # List 인터페이스
 List 인터페이스는 Collection인터페이스를 확장하였다. Collection을 확장한 다른 인터페이스와 List 인터페이스의 가장 큰 차이점은 배열처럼 **순서**가 있다는 것이다.<br>
 
-List 인터페이스를 구현한 클래스들 중에 java.util 패키지에서는 **ArraList, Vector, Stack, LinkedList**를 가장 많이 사용한다.
+List 인터페이스를 구현한 클래스들 중에 java.util 패키지에서는 **ArrayList, Vector, Stack, LinkedList**를 가장 많이 사용한다.
 
 ## ArrayList
 ```java
