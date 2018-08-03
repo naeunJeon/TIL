@@ -35,7 +35,7 @@ public void printCarSet(HashSet<String> carSet){
  **hasNext()** 라는 메소드를 사용하여 다음 데이턱 존재하는지를 확인<br>
  **next()** 라는 메소드를 사용하여 다음 값을 얻어낸다.
 
-4. Set 비교
+## Set 비교
 - **HashSet** : 순서가 전혀 필요 없는 데이터를 hash table에 저장한다.
 - **TreeSet** : 저장된 데이터의 값에 따라서 정렬되는 셋이다. red-black이라는 트리타입으로 값이 저장된다.
 - **LinkedHashSet** : 연결된 목록 타입으로 구현된 hash table에 데이터를 저장한다. 저장된 순서에 따라서 값이 정렬된다.<br>
