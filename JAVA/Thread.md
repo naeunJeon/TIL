@@ -43,16 +43,16 @@ new Thread(runnable).start();
 Runnable 인터페이스를 구현한 RunnableSample 클래스를 스레드로 바로 시작할 수 없다. 따라서 Thread 클래스의 생성자에 해당 객체를 추가하여 시작해야한다.
 
 ## 2. sleep() 메소드
-`static void sleep(long millis)` : 매개변수로 넘어온 시간(1/1,000초) 만큼 대기
+`static void sleep(long millis)` : 매개변수로 넘어온 시간(1/1,000초) 만큼 대기<br>
 `static void sleep(long millis, int nanos)` : 첫번째 매개변수로 넘어온 시간(1/1000) + 두번째 매개변수로 넘어온 시간(1/1000,000,000초) 만큼 대기<br>
 **Thread.sleep()** 메소드를 사용할때는 **try-catch**로 묶어주어야한다.(InterruptedException)
 
 ## 3. Thread클래스 관련 메소드
-`long getId()` : 스레드의 고유 ID를 리턴, JVM에서 자동으로 생성
-`String getName()` : 스레드의 이름을 리턴
-`void setName(String name)` : 스레드의 이름을 지정
-`int getPrioirty()` : 스레드의 우선순위를 확인
-`int setPrioirty(int newPriority)` : 스레드의 우선순위를 지정
-`boolean isDaemon()` : 스레드가 데몬인지 확인한다.
-`Thread.State getState()` : 스레드의 상태를 확인
-`ThreadGroup getThreadGroup()` : 스레드의 그룹을 확인
+`long getId()` : 스레드의 고유 ID를 리턴, JVM에서 자동으로 생성<br>
+`String getName()` : 스레드의 이름을 리턴<br>
+`void setName(String name)` : 스레드의 이름을 지정<br>
+`int getPrioirty()` : 스레드의 우선순위를 확인<br>
+`int setPrioirty(int newPriority)` : 스레드의 우선순위를 지정<br>
+`boolean isDaemon()` : 스레드가 데몬인지 확인<br>
+`Thread.State getState()` : 스레드의 상태를 확인<br>
+`ThreadGroup getThreadGroup()` : 스레드의 그룹을 확인<br>
