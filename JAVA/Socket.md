@@ -56,7 +56,7 @@ import java.io.InputStreamReader;
 
 public class SocketServerSample {
     public static void main(String[] args) {
-        SocketClientSample sample = new SocketClientSample();
+        SocketServerSample sample = new SocketServerSample();
         sample.startReplyServer();
     }
 
