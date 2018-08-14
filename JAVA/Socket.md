@@ -57,10 +57,10 @@ import java.io.InputStreamReader;
 public class SocketServerSample {
     public static void main(String[] args) {
         SocketServerSample sample = new SocketServerSample();
-        sample.startReplyServer();
+        sample.startServer();
     }
 
-    public void startReplyServer(){
+    public void startServer(){
         ServerSocket server = null;
         Socket client = null;
         try {
