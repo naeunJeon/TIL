@@ -1,2 +1,2 @@
-## [android 성능](./adroid)
+## [android 성능](./android)
 ## [vmstat](./vmstat)
